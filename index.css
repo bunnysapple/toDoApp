@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    height: 100svh;
+    width: 100vw;
+}
+
+.background {
+    height: 100%;
+    width: 100vw;
+    background: linear-gradient(
+        180deg,
+        #160D63,
+        #08051D
+    );
+}
+
+.title {
+    height: 25%;
+    width: 80vw;
+    position: relative;
+    left: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: 0;
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/repeated-square-dark.png);
+    background-size: 4px 4px;
+    background-repeat: repeat;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 10px -10px 80px #000000 inset;
+}
+
+
+h1 {
+    font-size: 3em;
+    font-family: cursive;
+    background: -webkit-linear-gradient(45deg, #440091, #8E61C1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.inputbox {
+    height: 36px;
+    width: 50vw;
+    max-width: 500px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #161418;
+    border: 1px solid #2e035f;
+}
+
+.inputbox:focus-within {
+    border: 2px solid #3e0284;
+}
+
+#textbox {
+    height: 30px;
+    width: calc(50vw - 34px);
+    max-width: 466px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    padding-left: 5px;
+    color: #5a5b87
+}
+
+#textbox:focus {
+    outline: none;
+}
+
+#add {
+    position: relative;
+    top: -0.5px;
+    background-color: transparent;
+}
+
+.fa-plus {
+    font-size: 30px;
+    position: relative;
+    top: -2px;
+    left: -1px;
+}
+
+button {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button * {
+    background: -webkit-linear-gradient(#a64ed2, #0f00e1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#output {
+    width: 80vw;
+    height: 75%;
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    position: relative;
+    left: 10vw;
+    overflow: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: linear-gradient(
+        45deg,
+        #1d0f24,
+        rgb(8, 5, 63)
+    );
+}
+
+.box {
+    margin-top: 10px;
+    height: 36px;
+    width: calc(50vw + 105px);
+    max-width: 610px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #161418;
+    border: 1px solid #2e035f;
+}
+
+.item {
+    height: 30px;
+    width: calc(50vw - 15px);
+    max-width: 510px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: none;
+    padding-left: 5px;
+    font-family: 'Zilla Slab', serif;
+    font-size: 20px;
+    color: rgb(135, 134, 135);
+}
+
+.button {
+    background-color: transparent;
+}
+
+.checkButton {
+    margin-left: 2px;
+    width: 24px;
+    height: 24px;
+    border-radius: 7px;
+    background-color: #2e2934;
+}
+
+.fa-pen, .fa-trash-can {
+    font-size: 20px;
+}
+
+.fa-check {
+    font-size: 24px;
+}
+
+.unchecked .fa-check {
+    display: none;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.greyed {
+    background-color: #49484a;
+}
+
+.active {
+    background-color: #383838;
+}
+
+.noEdit {
+    display: none;
+    cursor: normal;
+}
+
+output::-webkit-scrollbar {
+    display: none;
+}

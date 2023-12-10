@@ -45,6 +45,7 @@ h1 {
     font-family: cursive;
     background: -webkit-linear-gradient(45deg, #440091, #8E61C1);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -103,6 +104,7 @@ button {
 button * {
     background: -webkit-linear-gradient(#a64ed2, #0f00e1);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 

@@ -1,8 +1,8 @@
-// Check list for my to do app :)
+This is a simple To Do app that I made to try and apply some of the concepts I have learnt.
 
-- need h1 heading, maybe twice normal size, 'To Do'
-- need a text bar with a 'go' icon-button (maybe an arrow or smth?)
-- on click, the text in the text bar should be transferred into an input-checkbox element inside a div
-- if checked, the text should have a line struck through and a delete icon-button next to the text should appear
-- if the delete icon-button is clicked, the div element should be deleted
-- 
+It has some basic function, like:
+- you can add an activity through the text box and it appears on the page (you can click the '+' button or press enter once you have written in the box).
+- if the input box is empty, clicking the '+' button or pressing enter will not add anything to the page.
+- you can edit activities you have already added on the page as long as it's not ticked.
+- you can tick activities you have completed and it will cross out the activity to show that it has been completed. You can't edit it once it's crossed out.
+- you can delete activities whenever you wand and it will be removed from the page.
